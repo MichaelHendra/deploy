@@ -1,0 +1,78 @@
+.modalOverlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    position: relative;
+}
+.closeButton{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.LineModal{
+    display: flex;
+}
+.LineModal img {
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    height: 20px;
+}
+.LineModal h2{
+    padding-left: 9%;
+}
+
+.formGroup{
+    margin-bottom: 15px;
+}
+
+.formGroup label{
+    display: block;
+    max-width: 5px;
+}
+
+.formGroup input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.borderLogin{
+    border-top-style: solid;
+}
+.borderLoginText{
+    padding-left: 13%;
+    padding-right: 13%;
+}
+.ButtonModal{
+    background-color: transparent;
+    border-style: none;
+    font-size: 14px;
+    padding: 8px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.ButtonModal:hover{
+    background-color: #FCE9E9;
+} 
+.pow{
+    text-align: justify;
+}
+.linkPisah{
+    display: flex;
+    justify-content: space-between;
+}

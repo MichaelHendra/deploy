@@ -1,0 +1,36 @@
+.containter{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.BgBawah{
+    display: block;
+    position: relative;
+    background-color: #141414;
+    height: auto;
+}
+
+.cardLine {
+    padding: 30px;
+}
+
+.textLineBawah{
+    text-align: start;
+    padding-bottom: 10px;
+    
+}
+
+.card{
+    overflow: hidden;
+    padding: 4px ;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    place-items: center;
+}
+.cardLink{
+    margin-left: 4px;
+    
+}

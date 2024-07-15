@@ -1,0 +1,130 @@
+.BG{
+place-items: center;
+}
+
+.containter{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.imgBG{
+    display: block;
+    width: 100%;
+    height: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Br{
+    position: absolute;
+    bottom: 40%;
+    left: 10%;
+}
+
+.Line{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.LineText{
+    padding-left: 12px;
+    font-weight: 300;
+    padding-top: 0;
+    margin: 0;
+}
+
+.BigText{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 5em;
+}
+
+.gap{
+    padding-left: 20px;
+}
+
+.LineButton{
+    display: flex;
+    align-items: center;
+    padding: 4%;
+    border-radius: 4px;
+}
+
+/* button {
+    border: none;
+}
+.Button2 {
+    background: #000;
+} */
+
+.LinkLine{
+    background: #fff;
+    color: black;
+    display: flex;
+    text-align: center;
+    place-content: center;
+    place-items: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.LinkLine2{
+    background: #cd2323;
+    color: white;
+    display: flex;
+    text-align: center;
+    place-content: center;
+    place-items: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.LinkLine:hover{
+    background: #cd2323; 
+    color: white;
+}
+
+.LinkLine2:hover{
+    background: #f1a7a7; 
+    color: black;
+}
+
+.buttonTextHome{
+    margin: 0;
+}
+
+/* Bagian Bawah */
+.BgBawah{
+    display: block;
+    position: relative;
+    background-color: #141414;
+    height: auto;
+}
+
+.cardLine {
+    padding: 30px;
+}
+
+.textLineBawah{
+    text-align: start;
+    padding-bottom: 10px;
+    
+}
+
+.card{
+    overflow: hidden;
+    padding: 4px ;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    place-items: center;
+}

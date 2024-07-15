@@ -1,0 +1,57 @@
+.BGFoter{
+    position: relative;
+    overflow: hidden;
+    background-color: #141414;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.containterFooter{
+    text-align: left;
+    padding: 6%;
+    float: left;
+    overflow: hidden;
+}
+
+.gapFooter{
+    padding: 20%;
+}
+
+.LogoFooter{
+    place-items: center;
+    align-items: center;
+    padding-left: 15%;
+}
+.bold {
+    color: #fff;
+}
+
+.para{
+    text-align: center;
+    color: white;
+    opacity: .5;
+    font-weight: 100;
+}
+
+.divlinkFooter{
+    display: block;
+    padding: 10px;
+}
+
+.linkFooter{
+    text-decoration: none;
+    color: white;
+    place-items: center;
+    align-items: center;
+}
+
+.copy{
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding: .3%;
+}

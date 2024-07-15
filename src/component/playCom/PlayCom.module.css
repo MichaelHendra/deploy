@@ -1,0 +1,50 @@
+.playVideo{
+    padding-left: 8%;
+    padding-right: 8%;
+    height: auto;
+    border-style: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.cardContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+    padding: 1%;
+    color: black;
+}
+.cardMovie{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+}
+.cardMovie img {
+    width: 100%;
+    height: auto;
+}
+.cardMovie .info {
+    padding: 15px;
+}
+.cardMovie .info .title {
+    font-size: 16px;
+    font-weight: bold;
+}
+.cardMovie .info .details {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #777;
+}
+.cardMovie .duration {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
