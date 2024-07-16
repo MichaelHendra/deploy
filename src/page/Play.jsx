@@ -23,7 +23,7 @@ function Play({ openModal, openModalPay }) {
     useEffect(() => {
         const fetchMovie = async () => {
             try {
-                const response = await fetch(`http://localhost:8000/api/movies/show/${id}`);
+                const response = await fetch(`http://hantutakut.42web.io/api/movies/show/${id}`);
                 const result = await response.json();
                 console.log("Fetched data:", result);
                 if (response.ok) {

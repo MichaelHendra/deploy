@@ -7,7 +7,7 @@ const [movies, setMovie] = useState([]);
 useEffect(()=>{
     const fetchMovie = async () => {
         try{
-            const response = await fetch('http://localhost:8000/api/movies/');
+            const response = await fetch('http://hantutakut.42web.io/api/movies/');
             const data = await response.json();
             if(Array.isArray(data)){
                 setMovie(data);

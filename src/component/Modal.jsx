@@ -11,7 +11,7 @@ const Modal = ({isOpen, onClose}) =>{
     const handleLogin = async (e) => {
         e.preventDefault();
         try{
-            const response = await axios.post('http://localhost:8000/api/login',{
+            const response = await axios.post('http://hantutakut.42web.io/api/login',{
                 email: emailTok,
                 password: password,
             });

@@ -22,7 +22,7 @@ function Navbar({ openModal, openModalRegister }) {
     try{
       const token = localStorage.getItem("token");
       console.log(token);
-      const response = await axios.post('http://localhost:8000/api/logout', {}, {
+      const response = await axios.post('http://hantutakut.42web.io/api/logout', {}, {
         headers: {
           'Authorization': `Bearer ${token}`,
           'Content-Type': 'application/json'

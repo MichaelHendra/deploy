@@ -8,7 +8,7 @@ function Baratcard ({id}) {
     useEffect(() => {
        const fetchMovie = async () =>{
         try{
-            const respones = await fetch(`http://localhost:8000/api/movie/genre/${id}`);
+            const respones = await fetch(`http://hantutakut.42web.io/api/movie/genre/${id}`);
             const data = await respones.json();
             if(Array.isArray(data)){
                 setMovie(data);

@@ -13,7 +13,7 @@ function Movies() {
     useEffect(() => {
         const fetchMovies = async () => {
             try {
-                const response = await fetch('http://localhost:8000/api/movies'); 
+                const response = await fetch('http://hantutakut.42web.io/api/movies'); 
                 const data = await response.json();
                 console.log("Fetched data:", data); // Log the fetched data to check its structure
                 if (Array.isArray(data)) {

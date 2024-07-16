@@ -9,7 +9,7 @@ function Subcribe() {
     useEffect(() => {
         const fetchSubs = async () => {
             try {
-                const response = await fetch('http://localhost:8000/api/sub');
+                const response = await fetch('http://hantutakut.42web.io/api/sub');
                 const data = await response.json();
                 if (data) {
                     setSubs(data);
@@ -25,7 +25,7 @@ function Subcribe() {
 
     const handleSubscribe = async (planId) => {
         try {
-            const response = await fetch(`http://localhost:8000/api/subcribe/${userId}`, {
+            const response = await fetch(`http://hantutakut.42web.io/api/subcribe/${userId}`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

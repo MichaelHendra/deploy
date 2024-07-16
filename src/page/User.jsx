@@ -10,7 +10,7 @@ function User () {
     useEffect(() => {
         const fetchUser = async () => {
             try{
-                const response = await fetch(`http://localhost:8000/api/user/${userId}`,{
+                const response = await fetch(`http://hantutakut.42web.io/api/user/${userId}`,{
                     method: 'GET',
                     headers:{
                             'Authorization': `Bearer ${token}`

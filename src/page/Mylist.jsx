@@ -7,7 +7,7 @@ function Mylist(){
     useEffect(() => {
         const fetchMovie = async () => {
             try{
-                const response = await fetch(`http://localhost:8000/api/movies`);
+                const response = await fetch(`http://hantutakut.42web.io/api/movies`);
                 const result = await response.json();
                 console.log("Fetchaed data:", result);
                 if (response.ok) {
